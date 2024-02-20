@@ -1,0 +1,7 @@
+<div
+  class="text-container"
+  *ngIf="textValue !== 3"
+  [ngClass]="{ green: textValue == 1, red: textValue == 0 }"
+>
+  <span>{{ textValue }}</span>
+</div>

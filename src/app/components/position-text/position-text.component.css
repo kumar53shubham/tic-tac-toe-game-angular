@@ -1,0 +1,25 @@
+.text-container{
+    background-color: aquamarine;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: all 180ms linear;
+    cursor: pointer;
+}
+
+.green{
+    background-color: rgb(55, 226, 55);
+    color: black;
+}
+
+.red{
+    background-color: rgb(229, 62, 62);
+    color: white;
+}
+
+/* .text-container:hover{
+    
+} */
